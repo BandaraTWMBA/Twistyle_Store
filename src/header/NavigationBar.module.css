@@ -1,0 +1,67 @@
+.navigationWrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: Cantarell, sans-serif;
+  font-weight: 400;
+}
+
+.mainNav {
+  background-color: rgba(254, 240, 246, 1);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+  justify-content: center;
+  padding: 11px 70px;
+  box-sizing: border-box;
+}
+
+.navLinks {
+  display: flex;
+  width: 100%;
+  max-width: 1033px;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.navItem {
+  text-decoration: none; /* Remove underline from links */
+  color: rgba(0, 0, 0, 0.7); /* Initial color */
+  font-weight: 500;
+  padding: 8px;
+  cursor: pointer;
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navItem:hover {
+  color: rgb(134, 166, 232); /* Change to black on hover */
+}
+
+.shippingBanner {
+  background-color: rgba(18, 17, 17, 1);
+  width: 100%;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+  padding: 3px 70px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+@media (max-width: 991px) {
+  .mainNav {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .navLinks {
+    max-width: 100%;
+  }
+
+  .shippingBanner {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
