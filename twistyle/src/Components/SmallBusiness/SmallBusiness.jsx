@@ -10,8 +10,8 @@ const SmallBusiness = () => {
     <div className='smallbusiness'>
       
         <img src={picture01} alt="pic01"/>
-        <img src={picture02} alt="pic02"/>
-      <img src={picture03} alt="pic03"/>
+        <img src={picture03} alt="pic03"/>
+      <img src={picture02} alt="pic02"/>
        <div className='smallbusinesstext'>
         <br/>
         <h3>SMALL BUSINESS</h3>
