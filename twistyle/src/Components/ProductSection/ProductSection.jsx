@@ -1,0 +1,34 @@
+
+import React from 'react'
+import './ProductSection.css'
+import scrunchies from '../../assets/scrunchies.png'
+import earrings from '../../assets/earrings.png'
+import clawclips from '../../assets/clawclips.png'
+
+const ProductSection = () => {
+  return (
+    <div className='sections'>
+        <div className="section">
+            <img src={scrunchies} alt ="scrunchies"/>
+            <div className="caption">
+            <button className='btn '>SCRUNCHIES</button>
+            </div>
+        </div>
+        <div className="section">    
+            <img src={earrings} alt ="earrings"/>   
+            <div className="caption">
+                <button className='btn '>EARRINGS</button>
+            </div>   
+        </div>
+         <div className="section">
+             <img src={clawclips} alt ="clawclips"/>
+             <div className="caption">
+             <button className='btn '>CLAWCLIPS</button>
+             </div>
+        </div>
+    </div>
+  )
+}
+
+export default ProductSection
+
