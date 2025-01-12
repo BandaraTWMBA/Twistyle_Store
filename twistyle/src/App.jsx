@@ -5,25 +5,37 @@ import ProductSection from './Components/ProductSection/ProductSection'
 import SmallBusiness from './Components/SmallBusiness/SmallBusiness'
 import Title from './Components/Title/Title'
 import IconBar from './Components/IconBar/IconBar'
+import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import Home from './Pages/Home'
 
 const App = () => {
   return (
-    <div>
-     <IconBar/>
-      <Navbar/>
-      <Hero/>
-      <div className="container">
-         <ProductSection/>
-         
-      </div>
+  
+  
+      <div>
+      <BrowserRouter>
+      <Navbar />
+      <IconBar />
+      <Hero />
+       <Routes>
+        <Route path='/' element={<Home/>}></Route>
+       </Routes>
       
-      <SmallBusiness/>
-      <br/>
-      <br/>
-      <Title title="BEST SELLERS"/>
        
-      
-    </div>
+         
+        
+        <div className="container">
+          <ProductSection />
+        </div>
+        <SmallBusiness />
+        <br />
+        <br />
+        <Title title="BEST SELLERS" />
+        
+        </BrowserRouter>
+      </div>
+    
+    
   )
 }
 
