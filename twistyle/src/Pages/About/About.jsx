@@ -3,6 +3,8 @@ import './About.css'
 import aboutpic01 from '../../assets/aboutpic01.png'
 import aboutpic02 from '../../assets/aboutpic02.png'
 import aboutpic03 from '../../assets/aboutpic3.png'
+import aboutpic04 from '../../assets/aboutpic04.png'
+import Footer from '../../Components/Footer/Footer'
 
 // import picture02 from '../../assets/sbpic02.png'
 // import picture03 from '../../assets/sbpic03.png'
@@ -23,7 +25,7 @@ const About = () => {
             <img src={picture02} alt="pic02"/> */}
              <div className='about-text01'>
               <h3>MEET THE FOUNDER</h3>
-              <h4>BUDHATHRI BANDARA</h4>
+              <h5>BUDHATHRI BANDARA</h5>
               
               <br/>
               <p>Twistyle offers a curated collection of trendy and timeless accessories,
@@ -36,6 +38,7 @@ const About = () => {
       
       
     </div>
+    
 
     <div className='about2'>
     <h1 className='ourstory'>OUR STORY</h1>
@@ -105,7 +108,30 @@ const About = () => {
             
     
        </div> 
+       <div className='about5'>
+ 
+      
+      <div className='about-text05'>
+      <h3>GET TO KNOW US</h3>
+              
+              
+              <br/>
+              <p>Our team at Twistyle is a close-knit group of passionate, creative, and 
+                dedicated individuals who share a love for design and craftsmanship.
+                 Each member brings unique talents to the table, working together to ensure every accessory we create 
+                 is both beautiful and high-quality. From brainstorming fresh ideas to delivering the perfect piece to your door,
+                 our team is committed to making Twistyle a brand you can trust and love.</p>
+            </div>
+              
 
+            
+    
+       </div> 
+       <div className='aboutpicture5'>
+          <img src={aboutpic04} alt="aboutpic04"/>
+      </div>
+       
+     <Footer/>
     
        </div>   
        

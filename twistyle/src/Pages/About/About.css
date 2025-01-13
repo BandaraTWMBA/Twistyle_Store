@@ -30,7 +30,21 @@
     margin-right: 100px;
     width:400px;
     margin-top:200px;
+   
 }
+.about-text01 h3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about-text01 h5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
 
 .aboutpicture1{
     
@@ -137,17 +151,19 @@
     margin: 0px 30px;  
 
 }   
+
 .about-text04{
     position: absolute;
     padding-top: 20px;
     padding-left: 35px;
     padding-right: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     right: 0;
     margin-right: 10px;
     width: 70%;
-    margin-top: 150px;
+    margin-top: 585px;
     line-height: 50px;
+    margin-bottom: 0px;
 }
 .about-text04 h3{
     display: flex;
@@ -156,17 +172,18 @@
     margin-top: 20px;
     padding-left:10%;
     padding-right: 10%;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 
 } 
 .aboutpicture4{
     width:30%;
-    min-height:500px;
+    min-height:700px;
     background-repeat: no-repeat; 
     padding-top: 100px; 
     background-position: left center;
     align-items:center;
     justify-content: center;
+    margin-top: 500px;
 }
  .about4{
     display: flex;
@@ -175,4 +192,51 @@
      
 
 }   
+
+
+.about-text05{
+    position: absolute;
+    padding-top: 0px;
+    padding-left: 35px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    left: 0;
+    margin-left: 10px;
+    width: 70%;
+    margin-top: -90px;
+    line-height: 50px;
+}
+.about-text05 h3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-top: 0px; */
+    padding-left:10%;
+    padding-right: 10%;
+    padding-bottom: 0px;
+
+} 
+.aboutpicture5{
+    width:30%;
+    min-height:700px;
+    background-repeat: no-repeat;  
+    background-position: right center;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    float: right;
+    margin-top:-260px; /* Adjusted to make about4 and about5 sections close */
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+   
+
+ .about5{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px; 
+    padding-top: 0px; 
+
+}   
+
 
