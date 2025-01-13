@@ -64,3 +64,22 @@ nav ul img{
     color: white;
 
 } */
+.btn1{
+    background:white;
+    color:black;
+    padding:14px 25px;
+    font-size:16px;
+    border-radius: 30px;
+    cursor:pointer;
+    border:0;
+    outline:0;
+    display:inline-flex;
+    align-items: center;
+    justify-content:center;
+}
+.btn1:hover{
+    transform: scale(1.1);
+    background-color: rgba(251, 149, 193, 1);
+    /* background-color:rgba(251, 149, 193, 1); */
+}
+

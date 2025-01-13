@@ -20,7 +20,7 @@ const Navbar = () => {
 
         <li><img src={shoppingcart} alt='cart'/> </li>
         <li><img src={user} alt='user'/></li>
-        <li><button className='btn'>Log</button></li>
+        <li><button className='btn1'>Log</button></li>
        
       </ul>
       </nav>
