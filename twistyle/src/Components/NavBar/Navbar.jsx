@@ -10,13 +10,13 @@ const Navbar = () => {
   return (
     <div>
       <nav className='container'>
-      <img src={logo} alt="logo" className='logo'/>
+      <a href='http://localhost:5173/'><img src={logo} alt="logo" className='logo'/></a>
       <ul className='iconbar-list'>
      
         <li onClick={()=>{setMenu("newarrivals")}} >New Arrivals{menu==="newarrivals"?<hr/>:<></>}</li>
         <li  onClick={()=>{setMenu("shop")}}>Shop{menu==="shop"?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu("sale")}}>Sale{menu==="sale"?<hr/>:<></>}</li>
-        <li  onClick={()=>{setMenu("about")}}>About{menu==="about"?<hr/>:<></>}</li>
+        <li  onClick={()=>{setMenu("about")}}><a href='http://localhost:5173/About'>About</a>{menu==="about"?<hr/>:<></>}</li>
 
         <li><img src={shoppingcart} alt='cart'/> </li>
         <li><img src={user} alt='user'/></li>
