@@ -3,13 +3,13 @@ import './Info.css'
 import IconBar from '../../Components/IconBar/IconBar'
 import Navbar from '../../Components/NavBar/Navbar'
 import shippingpic1 from '../../assets/shippingpic1.jpg'
+import Footer from '../../Components/Footer/Footer'
 
 
 const Info = () => {
   return (
     <div>
-      <IconBar/>
-      <Navbar/>
+      
       <div className='info'>
         <h1>INFORMATION</h1>
         <div className='info-shipping'>
@@ -23,11 +23,12 @@ const Info = () => {
 
             <br/>
             
-            <img className='shipping-pic' src={shippingpic1} alt='pic1'/>
+           
         </div>
 
-
+        <img className='shipping-pic' src={shippingpic1} alt='pic1'/>
       </div>
+      <Footer/>
       
     </div>
   )

@@ -4,6 +4,7 @@ const Earrings = () => {
   return (
     <div>
       
+      
     </div>
   )
 }
