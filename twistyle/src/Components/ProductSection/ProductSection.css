@@ -35,3 +35,17 @@
 .section:hover .caption{
     opacity: 1;
 }
+.btnp{
+    background:white;
+    color:black;
+    padding:14px 25px;
+    font-size:16px;
+    border-radius: 30px;
+    cursor:pointer;
+    border:0;
+    outline:0;
+    display:inline-flex;
+    align-items: center;
+    justify-content:center;
+    width:200px;
+}
