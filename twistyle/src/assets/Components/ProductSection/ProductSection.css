@@ -1,0 +1,51 @@
+.sections{
+    margin:80px auto;
+    width:90%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+}
+.sections img{
+    width:100%;
+    border-radius:10px;
+    display:block;
+}
+.section{
+    flex-basis:31%;
+    position:relative;
+}
+.caption{
+    border-radius:10px;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+    color:black;
+    cursor:pointer;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    opacity:0;
+
+}
+.section:hover .caption{
+    opacity: 1;
+}
+.btnp{
+    background:white;
+    color:black;
+    padding:14px 25px;
+    font-size:16px;
+    border-radius: 30px;
+    cursor:pointer;
+    border:0;
+    outline:0;
+    display:inline-flex;
+    align-items: center;
+    justify-content:center;
+    width:200px;
+}

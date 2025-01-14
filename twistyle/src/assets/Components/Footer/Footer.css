@@ -1,0 +1,111 @@
+.footer {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    gap: 20px;
+    width: 100%;
+    height: auto; /* Adjust height dynamically */
+}
+.footer-first{
+    display: flex ;
+    flex-direction: row;
+
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+    width: 100%;
+    text-align: left;
+}
+
+.footer-logo img {
+    width: 350px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 400px;
+}
+
+.footer-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-links {
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-links li {
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-links li  h3:hover {
+    color: rgba(251, 149, 193, 1); /* Optional: Add hover color */
+}
+
+.footer-social-icon {
+    display: flex;
+    gap: 150px;
+    margin-bottom: auto;
+}
+
+.footer-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    border-radius: 50%;
+    border: 1px solid #555;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.footer-icons-container:hover {
+    transform: scale(1.1);
+    background-color:rgba(251, 149, 193, 1); /* Optional hover effect */
+}
+
+.footer-icons-container img {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-copyright {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer-copyright hr {
+    border: none;
+    height: 2px;
+    background-color: white;
+    margin: 10px 0;
+}
+
+.footer-copyright p {
+    font-size: 14px;
+    color: white;
+    margin: 0;
+}
