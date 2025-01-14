@@ -6,17 +6,19 @@ import user from '../../assets/user.png'
 
 
 const Navbar = () => {
-  const[menu,setMenu]=useState("newarrivals");
+  const [menu, setMenu] = useState("");
   return (
     <div>
       <nav className='container'>
-      <a href='http://localhost:5173/'><img src={logo} alt="logo" className='logo'/></a>
+      <a href='http://localhost:5173/' ><img src={logo} alt="logo" className='logo'/></a>
       <ul className='iconbar-list'>
      
-        <li onClick={()=>{setMenu("newarrivals")}} >New Arrivals{menu==="newarrivals"?<hr/>:<></>}</li>
-        <li  onClick={()=>{setMenu("shop")}}>Shop{menu==="shop"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("sale")}}>Sale{menu==="sale"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("newarrivals")}} ><a href='http://localhost:5173/NewArrivals'>New Arrivals</a>{menu==="newarrivals"?<hr/>:<></>}</li>
+        <li  onClick={()=>{setMenu("shop")}}><a href='http://localhost:5173/Shop'>Shop</a>{menu==="shop"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("sale")}}><a href='http://localhost:5173/Sale'>Sale</a>{menu==="sale"?<hr/>:<></>}</li>
         <li  onClick={()=>{setMenu("about")}}><a href='http://localhost:5173/About'>About</a>{menu==="about"?<hr/>:<></>}</li>
+
+        
 
         <li><img src={shoppingcart} alt='cart'/> </li>
         <li><img src={user} alt='user'/></li>

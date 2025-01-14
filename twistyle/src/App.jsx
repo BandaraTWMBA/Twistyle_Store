@@ -15,6 +15,7 @@ import Sale from './Pages/Sale/Sale'
 import Scrunchies from './Pages/Scrunchies/Scrunchies'
 import Shop from './Pages/Shop/Shop'
 import Support from './Pages/Support/Support'
+import Footer from './Components/Footer/Footer'
 
 
 
@@ -42,9 +43,9 @@ const App = () => {
       
       
      </Routes>
-     {/* <About/> */}
-   
     
+   
+    <Footer/>
      
      
        

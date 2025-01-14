@@ -4,7 +4,7 @@ import aboutpic01 from '../../assets/aboutpic01.png'
 import aboutpic02 from '../../assets/aboutpic02.png'
 import aboutpic03 from '../../assets/aboutpic3.png'
 import aboutpic04 from '../../assets/aboutpic04.png'
-import Footer from '../../Components/Footer/Footer'
+
 
 // import picture02 from '../../assets/sbpic02.png'
 // import picture03 from '../../assets/sbpic03.png'
@@ -130,8 +130,7 @@ const About = () => {
        <div className='aboutpicture5'>
           <img src={aboutpic04} alt="aboutpic04"/>
       </div>
-       
-     <Footer/>
+    
     
        </div>   
        

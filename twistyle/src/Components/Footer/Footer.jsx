@@ -25,7 +25,7 @@ const Footer = () => {
                 {/* Footer Links */}
                 <ul className="footer-links">
                     <li>
-                        <h3>SUPPORT</h3>
+                        <h3><a href="http://localhost:5173/support">SUPPORT</a></h3>
                         <br/>
                         <li>Search</li>
                         <li>Login</li>

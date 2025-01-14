@@ -19,7 +19,7 @@ const Home = () => {
       <h1 className='bestsellers'>BEST SELLERS</h1>
       
       <br/>
-      <Footer/>
+      
       
 
      
