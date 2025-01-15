@@ -1,0 +1,89 @@
+/* General Styling */
+.shop {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    
+}
+
+/* Title Styling */
+.shop h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+    padding: 0 10%;
+    color: #222;
+
+    padding-bottom: 20px;
+}
+
+/* Shop Section Layouts */
+.shop-1,
+.shop-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px auto;
+    padding: 0 5%;
+}
+
+.shop-2 {
+    position: relative;
+    margin: 20px auto;
+    padding: 0 5%;
+    text-align: center;
+    margin-left: -40px;
+}
+
+/* Button Styling */
+.btnshop {
+    background: linear-gradient(135deg, rgb(244, 141, 184), rgb(240, 184, 217));
+    color: white;
+    padding: 14px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btnshop:hover {
+    background: linear-gradient(135deg,  rgb(240, 184, 217), rgb(244, 141, 184));
+    transform: scale(1.1);
+}
+
+/* Box Layout */
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .shop h1 {
+        font-size: 2rem;
+    }
+
+    .shop-1,
+    .shop-3 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .btnshop {
+        width: auto;
+        padding: 10px 20px;
+    }
+}
+

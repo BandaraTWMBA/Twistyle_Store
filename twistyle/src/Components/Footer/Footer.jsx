@@ -38,7 +38,7 @@ const Footer = () => {
                     <li><h3><a href='http://localhost:5173/Info'>INFO</a></h3>
                     <br/>
                         <li>Shipping</li>
-                        <li>Termas<br/> & <br/>conditions</li>
+                        <li>Terms<br/> & <br/>conditions</li>
                         <li><p>.............</p></li>
                     
                     </li>

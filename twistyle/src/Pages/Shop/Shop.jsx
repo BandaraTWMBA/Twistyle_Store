@@ -10,19 +10,21 @@ import shop7 from '../../assets/shop7.png'
 
 const Shop = () => {
   return (
-    <div>
+    <div className='shop'>
+      
+      <h1>SHOP</h1>
 
       <div className='shop-1'>
-        <div className='box1'>
+        <div className='box'>
           <img src={shop1} alt="pic01"/>
           <button className='btnshop'>SCRUNCHIES</button>
         </div>
-        <div className='box2'>
+        <div className='box'>
           <img src={shop2} alt="pic02"/>
           <button className='btnshop'>EARRINGS</button>
 
         </div>
-        <div className='box3'>
+        <div className='box'>
           <img src={shop3} alt="pic03"/>
           <button className='btnshop'>CLAW CLIPS</button>
 
@@ -31,7 +33,7 @@ const Shop = () => {
 
       <div className='shop-2'>
         <img src={shop4} alt="pic04"/>
-        <button className='btnshop1'>SHOPNOW</button>
+        <button className='btnshop'>SHOPNOW</button>
       </div>
 
 
