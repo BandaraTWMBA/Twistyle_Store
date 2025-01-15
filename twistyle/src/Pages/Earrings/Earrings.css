@@ -55,8 +55,23 @@
     max-height: 100%;
 }
 .btnbuy{
-    background-color:rgb(219, 217, 217);
-    border: 1px solid black ;
+    background: linear-gradient(135deg, rgb(244, 141, 184), rgb(240, 184, 217));
+    color: white;
+    padding: 14px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    transition: all 0.3s ease-in-out;
 }
-
+.btnbuy:hover {
+    background: linear-gradient(135deg,  rgb(240, 184, 217), rgb(244, 141, 184));
+    transform: scale(1.1);
+}
 

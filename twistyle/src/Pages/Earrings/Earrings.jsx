@@ -1,68 +1,94 @@
 import React from 'react'
 import './Earrings.css'
-import scrunch1 from '../../assets/scrunch1.jpg'
 import cart from '../../assets/shopping-cart1.png'
+import e1 from '../../assets/e1.jpg'
+import e2 from '../../assets/e2.jpg'
+import e3 from '../../assets/e3.jpg'
+import e4 from '../../assets/e4.jpg'
+import e5 from '../../assets/e5.jpg'
+import e6 from '../../assets/e6.jpg'
+import e7 from '../../assets/e7.jpg'
+import e8 from '../../assets/e8.jpg'
+import e9 from '../../assets/e9.jpg'
+import e10 from '../../assets/e10.jpg'
+import e11 from '../../assets/e11.jpg'
+import e12 from '../../assets/e12.jpg'
+
+
 
 const Earrings = () => {
 
 
   const menueitems = [
-      {
-        name: 'Scrunchie_01',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
-      {
-        name: 'Scrunchie_02',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
-      {
-        name: 'Scrunchie_03',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
-      {
-        name: 'Scrunchie_04',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
-      {
-        name: 'Scrunchie_05',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
-      {
-        name: 'Scrunchie_06',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
-      {
-        name: 'Scrunchie_07',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
-      {
-        name: 'Scrunchie_08',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
-      {
-        name: 'Scrunchie_09',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
-      {
-        name: 'Scrunchie_10',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
+       {
+            name: 'Earrings_01',
+            image: e1,
+            price: 'Rs.250'
+          },
+          {
+            name: 'Earrings_02',
+            image: e2,
+            price: 'Rs.200'
+          },
+          {
+            name: 'Earrings_03',
+            image: e3,
+            price: 'Rs.200'
+          },
+          {
+            name: 'Earrings_04',
+            image: e4,
+            price: 'Rs.290'
+          },
+          {
+            name: 'Earrings_05',
+            image: e5,
+            price: 'Rs.200'
+          },
+          {
+            name: 'Earrings_06',
+            image: e6,
+            price: 'Rs.200'
+          },
+          {
+            name: 'Earrings_07',
+            image: e7,
+            price: 'Rs.250'
+          },
+          {
+            name: 'Earrings_08',
+            image: e8,
+            price: 'Rs.250'
+          },
+          {
+            name: 'Earrings_09',
+            image: e9,
+            price: 'Rs.250'
+          },
+          {
+            name: 'Earrings_10',
+            image: e10,
+            price: 'Rs.250'
+          },
+          {
+            name: 'Earrings_11',
+            image: e11,
+            price: 'Rs.200'
+          },
+          {
+            name: 'Earrings_12',
+            image: e12,
+            price: 'Rs.200'
+          },
+   
+    
     ];
   
 
-  const earrings=menueitems.slice(5,9);
+  const earrings=menueitems.slice(0,12);
 
-      return (
+      return (<>
+        <h1 className='name'>EARRINGS</h1>
         
           <section className="card-container">
             
@@ -92,7 +118,7 @@ const Earrings = () => {
         
       </section>
 
-      
+      </>
       
     )
   

@@ -1,68 +1,90 @@
 import React from 'react'
 import './ClawClips.css'
-import scrunch1 from '../../assets/scrunch1.jpg'
+
 import cart from '../../assets/shopping-cart1.png'
+import c1 from '../../assets/c1.jpg'
+import c2 from '../../assets/c2.jpg'
+import c3 from '../../assets/c3.jpg'
+import c4 from '../../assets/c4.jpg'
+import c5 from '../../assets/c5.jpg'
+import c6 from '../../assets/c6.jpg'
+import c7 from '../../assets/c7.jpg'
+import c8 from '../../assets/c8.jpg'
+import c9 from '../../assets/c9.jpg'
+import c10 from '../../assets/c10.jpg'
+import c11 from '../../assets/c11.jpg'
+import c12 from '../../assets/c12.jpg'
 
 const ClawClips = () => {
 
 
   const menueitems = [
       {
-        name: 'Scrunchie_01',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
-      {
-        name: 'Scrunchie_02',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
-      {
-        name: 'Scrunchie_03',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
-      {
-        name: 'Scrunchie_04',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
-      {
-        name: 'Scrunchie_05',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
-      {
-        name: 'Scrunchie_06',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
-      {
-        name: 'Scrunchie_07',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
-      {
-        name: 'Scrunchie_08',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
-      {
-        name: 'Scrunchie_09',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
-      {
-        name: 'Scrunchie_10',
-        image: scrunch1,
-        price: 'Rs.200'
-      },
+           name: 'ClawClips_01',
+           image: c1,
+           price: 'Rs.200'
+         },
+         {
+           name: 'ClawClips_02',
+           image: c2,
+           price: 'Rs.250'
+         },
+         {
+           name: 'ClawClips_03',
+           image: c3,
+           price: 'Rs.200'
+         },
+         {
+           name: 'ClawClips_04',
+           image: c4,
+           price: 'Rs.290'
+         },
+         {
+           name: 'ClawClips_05',
+           image: c5,
+           price: 'Rs.290'
+         },
+         {
+           name: 'ClawClips_06',
+           image: c6,
+           price: 'Rs.200'
+         },
+         {
+           name: 'ClawClips_07',
+           image: c7,
+           price: 'Rs.250'
+         },
+         {
+           name: 'ClawClips_08',
+           image: c8,
+           price: 'Rs.200'
+         },
+         {
+           name: 'ClawClips_09',
+           image: c9,
+           price: 'Rs.280'
+         },
+         {
+           name: 'ClawClips_10',
+           image: c10,
+           price: 'Rs.200'
+         },
+         {
+           name: 'ClawClips_11',
+           image: c11,
+           price: 'Rs.200'
+         },{
+           name: 'ClawClips_12',
+           image: c12,
+           price: 'Rs.220'
+         },
     ];
   
 
-  const clawclips=menueitems.slice(5,9);
+  const clawclips=menueitems.slice(0,12);
 
-      return (
+      return (<>
+        <h1 className='name'>CLAWCLIPS</h1>
         
           <section className="card-container">
             
@@ -93,7 +115,7 @@ const ClawClips = () => {
       </section>
 
       
-      
+    </>  
     )
   
 }

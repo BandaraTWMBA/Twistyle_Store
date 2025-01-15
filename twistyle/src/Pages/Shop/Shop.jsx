@@ -33,7 +33,7 @@ const Shop = () => {
 
       <div className='shop-2'>
         <img src={shop4} alt="pic04"/>
-        <button className='btnshop'>SHOPNOW</button>
+        <button className='btnshop'><a href="http://localhost:5173/products">SHOPNOW</a></button>
       </div>
 
 
