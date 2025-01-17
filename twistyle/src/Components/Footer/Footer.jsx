@@ -53,16 +53,16 @@ const Footer = () => {
                 {/* Social Media Icons */}
                 <div className="footer-social-icon">
                     <div className="footer-icons-container">
-                        <img src={envelope} alt="envelope" />
+                    <a href="https://email.com/lander" target="_blank"> <img src={envelope} alt="envelope" /></a>
                     </div>
                     <div className="footer-icons-container">
-                        <img src={phoneflip} alt="phone" />
+                    <a href="https://www.youtube.com/watch?v=iQod_uvewIM" target="_blank"> <img src={phoneflip} alt="phone" /></a>
                     </div>
                     <div className="footer-icons-container">
-                        <img src={whatsapp} alt="whatsapp" />
+                    <a href="https://web.whatsapp.com/" target="_blank"> <img src={whatsapp} alt="whatsapp" /></a>
                     </div>
                     <div className="footer-icons-container">
-                        <img src={instagram} alt="instagram" />
+                    <a href="https://www.instagram.com/accounts/login/?hl=en"  target="_blank"><img src={instagram} alt="instagram" /></a>
                     </div>
                 </div>
             </div>

@@ -124,6 +124,7 @@
     display:inline-flex;
     align-items: center;
     justify-content:center;
+    width:200px;
 }
 .btn3:hover{
     transform: scale(1.1);

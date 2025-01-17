@@ -13,7 +13,7 @@ const Hero = () => {
           <br/>
           <br/>
           
-           <button className='btn'>SHOP NOW<img src={arrow} alt="arrow"/></button>
+           <button className='btn'><a href="http://localhost:5173/Shop">SHOP NOW</a><img src={arrow} alt="arrow"/></button>
            </p>
            
         </div>

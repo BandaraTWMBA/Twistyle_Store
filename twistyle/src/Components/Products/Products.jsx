@@ -268,7 +268,7 @@ const Products = () => {
    </section>
   
      ) )}
-<hr/>
+
 
 {earrings.map((item,index)=> (
         

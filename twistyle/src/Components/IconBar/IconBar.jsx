@@ -11,10 +11,10 @@ const IconBar = () => {
         
              
               <ul>
-                <li><img src={instagram} alt="" /></li>
-                <li><img src={facebook} alt="" /></li>
-                <li><img src={youtube} alt="" /></li>
-                <li><img src={envelope} alt="" /></li>
+                <li><a href="https://www.instagram.com/?hl=en" target="_blank"><img src={instagram} alt="" /></a></li>
+                <li><a href="https://web.facebook.com/?_rdc=1&_rdr#" target="_blank"><img src={facebook} alt="" /></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank"><img src={youtube} alt="" /></a></li>
+                <li><a href="https://email.com/lander" target="_blank"><img src={envelope} alt="" /></a></li>
                 
               </ul>
             

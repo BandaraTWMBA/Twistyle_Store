@@ -17,23 +17,23 @@ const Shop = () => {
       <div className='shop-1'>
         <div className='box'>
           <img src={shop1} alt="pic01"/>
-          <button className='btnshop'>SCRUNCHIES</button>
+          <button className='btnshop'><a href="http://localhost:5173/scrunchies">SCRUNCHIES</a></button>
         </div>
         <div className='box'>
           <img src={shop2} alt="pic02"/>
-          <button className='btnshop'>EARRINGS</button>
+          <button className='btnshop'><a href="http://localhost:5173/earrings">EARRINGS</a></button>
 
         </div>
         <div className='box'>
           <img src={shop3} alt="pic03"/>
-          <button className='btnshop'>CLAW CLIPS</button>
+          <button className='btnshop'><a href="http://localhost:5173/Clawclips">CLAW CLIPS</a></button>
 
         </div>
       </div>
 
       <div className='shop-2'>
         <img src={shop4} alt="pic04"/>
-        <button className='btnshop'>SHOPNOW</button>
+        <button className='btnshop'><a href="http://localhost:5173/products">SHOPNOW</a></button>
       </div>
 
 
