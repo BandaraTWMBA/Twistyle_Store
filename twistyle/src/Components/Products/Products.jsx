@@ -55,17 +55,17 @@ const Products = () => {
     {
       name: 'Scrunchie_02',
       image: scrunch2,
-      price: 'Rs.250'
+      price: 'Rs.200'
     },
     {
       name: 'Scrunchie_03',
       image: scrunch3,
-      price: 'Rs.270'
+      price: 'Rs.200'
     },
     {
       name: 'Scrunchie_04',
       image: scrunch4,
-      price: 'Rs.280'
+      price: 'Rs.200'
     },
     {
       name: 'Scrunchie_05',
@@ -80,27 +80,27 @@ const Products = () => {
     {
       name: 'Scrunchie_07',
       image: scrunch7,
-      price: 'Rs.250'
+      price: 'Rs.200'
     },
     {
       name: 'Scrunchie_08',
       image: scrunch8,
-      price: 'Rs.250'
+      price: 'Rs.200'
     },
     {
       name: 'Scrunchie_09',
       image: scrunch9,
-      price: 'Rs.250'
+      price: 'Rs.200'
     },
     {
       name: 'Scrunchie_10',
       image: scrunch10,
-      price: 'Rs.240'
+      price: 'Rs.200'
     },
     {
       name: 'Scrunchie_11',
       image: scrunch11,
-      price: 'Rs.220'
+      price: 'Rs.200'
     },
     {
       name: 'Scrunchie_12',
@@ -110,7 +110,7 @@ const Products = () => {
     {
       name: 'Earrings_01',
       image: e1,
-      price: 'Rs.250'
+      price: 'Rs.200'
     },
     {
       name: 'Earrings_02',
@@ -125,7 +125,7 @@ const Products = () => {
     {
       name: 'Earrings_04',
       image: e4,
-      price: 'Rs.290'
+      price: 'Rs.200'
     },
     {
       name: 'Earrings_05',
@@ -140,22 +140,22 @@ const Products = () => {
     {
       name: 'Earrings_07',
       image: e7,
-      price: 'Rs.250'
+      price: 'Rs.200'
     },
     {
       name: 'Earrings_08',
       image: e8,
-      price: 'Rs.250'
+      price: 'Rs.200'
     },
     {
       name: 'Earrings_09',
       image: e9,
-      price: 'Rs.250'
+      price: 'Rs.200'
     },
     {
       name: 'Earrings_10',
       image: e10,
-      price: 'Rs.250'
+      price: 'Rs.200'
     },
     {
       name: 'Earrings_11',
@@ -175,7 +175,7 @@ const Products = () => {
     {
       name: 'ClawClips_02',
       image: c2,
-      price: 'Rs.250'
+      price: 'Rs.200'
     },
     {
       name: 'ClawClips_03',
@@ -185,12 +185,12 @@ const Products = () => {
     {
       name: 'ClawClips_04',
       image: c4,
-      price: 'Rs.290'
+      price: 'Rs.200'
     },
     {
       name: 'ClawClips_05',
       image: c5,
-      price: 'Rs.290'
+      price: 'Rs.200'
     },
     {
       name: 'ClawClips_06',
@@ -200,7 +200,7 @@ const Products = () => {
     {
       name: 'ClawClips_07',
       image: c7,
-      price: 'Rs.250'
+      price: 'Rs.200'
     },
     {
       name: 'ClawClips_08',
@@ -210,7 +210,7 @@ const Products = () => {
     {
       name: 'ClawClips_09',
       image: c9,
-      price: 'Rs.280'
+      price: 'Rs.200'
     },
     {
       name: 'ClawClips_10',
@@ -224,15 +224,15 @@ const Products = () => {
     },{
       name: 'ClawClips_12',
       image: c12,
-      price: 'Rs.220'
+      price: 'Rs.200'
     },
   
   ];
   
 
-  const scrunchies=menueitems.slice(0,12);
-  const earrings=menueitems.slice(12,24);
-  const clawclips=menueitems.slice(24,36);
+  const scrunchies=menueitems.slice(0,11);
+  const earrings=menueitems.slice(11,23);
+  const clawclips=menueitems.slice(23,36);
 
 
 
@@ -241,8 +241,10 @@ const Products = () => {
 
   return (
     <>
-    <h1 className='name'>SHOP ALL</h1>
+      <h1 className='products'>ALL PRODUCTS</h1>
     <section className="card-container">
+    
+
       {scrunchies.map((item,index)=> (
         
         <section className="card" key={index}>

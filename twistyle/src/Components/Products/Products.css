@@ -3,12 +3,22 @@
     flex-wrap :wrap;
     margin-left:5rem;
     margin-right:5rem;
-    margin-top:10rem;
+    margin-top:1rem;
     margin-bottom: 30px;
     z-index:-2;
     background-color:rgba(254, 225, 237, 1);
     justify-content: center;
     gap:40px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 175px;
+    margin-bottom: 10px;
+    padding-left:10%;
+    padding-right: 10%;
+    /* padding-bottom: 20px; */
 }
 .name{
     display: flex;

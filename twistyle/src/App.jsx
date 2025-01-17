@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
-import { Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Navbar from './Components/NavBar/Navbar'
 import IconBar from './Components/IconBar/IconBar'
 import Info from './Pages/Info/Info'
@@ -17,31 +17,35 @@ import Support from './Pages/Support/Support'
 import Footer from './Components/Footer/Footer'
 import Signup from './Pages/Signup/Signup'
 import Products from './Components/Products/Products'
+import Order from './Pages/Order/Order'
 
 
 
 const App = () => {
   return (
-    <div>
+    <>
+
      {/* <Home/>  */}
+     
      <IconBar/>
       <Navbar/>
 
      <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
-      <Route path='/Info' element={<Info/>}/>
-      <Route path='/Cart' element={<Cart/>}/>
-      <Route path='/ClawClips' element={<ClawClips/>}/>
-      <Route path='/Earrings' element={<Earrings/>}/>
-      <Route path='/Login' element={<Login/>}/>
-      <Route path='/NewArrivals' element={<NewArrivals/>}/>
-      <Route path='/Sale' element={<Sale/>}/>
-      <Route path='/Scrunchies' element={<Scrunchies/>}/>
-      <Route path='/Shop' element={<Shop/>}/>
-      <Route path='/Support' element={<Support/>}/>
-      <Route path='/Signup' element={<Signup/>}/>
-      <Route path='/Products' element={<Products/>}/>
+      <Route path='/info' element={<Info/>}/>
+      <Route path='/cart' element={<Cart/>}/>
+      <Route path='/clawclips' element={<ClawClips />} />
+      <Route path='/earrings' element={<Earrings/>}/>
+      <Route path='/login' element={<Login/>}/>
+      <Route path='/newarrivals' element={<NewArrivals/>}/>
+      <Route path='/sale' element={<Sale/>}/>
+      <Route path='/scrunchies' element={<Scrunchies/>}/>
+      <Route path='/shop' element={<Shop/>}/>
+      <Route path='/support' element={<Support/>}/>
+      <Route path='/signup' element={<Signup/>}/>
+      <Route path='/products' element={<Products/>}/>
+      <Route path='/order' element={<Order/>}/>
       
      </Routes>
     
@@ -50,8 +54,8 @@ const App = () => {
      
      
        
-      
-    </div>
+    
+   </>
   )
 }
 

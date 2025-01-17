@@ -84,36 +84,36 @@ const ClawClips = () => {
   const clawclips=menueitems.slice(0,12);
 
       return (<>
-        <h1 className='name'>CLAWCLIPS</h1>
-        
-          <section className="card-container">
-            
-          {clawclips.map((item,index)=> (
+        <h1 className='clawclips'>CLAWCLIPS</h1>
+                
+                  <section className="card-container">
+                    
+                  {clawclips.map((item,index)=> (
+                      
+                      <section className="card1" key={index}>
+                  <img src={item.image}  alt={item.name} className='card-img '/>
+                  <div className="card-details">
+                      <h3 className='card-title'>{item.name}</h3>
+                      <section className="card-reviews">
+                          {/* <img src={star} alt="star" /><img src={star} alt="star" /><img src={star} alt="star" /><img src={star} alt="star" /><img src={star} alt="star" /> */}
+                             {/* <span className="total-reviews">4</span> */}
+                            <section className="card-price">
+                              <div className="price">
+                                  <del>Rs.300</del><p>{item.price}</p>
+                              </div>
+                              <div className="bag"><img src={cart} alt="cart"/></div>
+                            </section>
+                      
+                      </section>
+                  </div>
+                  <button className="btnbuy">Buy Now</button>
               
-              <section className="card" key={index}>
-          <img src={item.image}  alt={item.name} className='card-img '/>
-          <div className="card-details">
-              <h3 className='card-title'>{item.name}</h3>
-              <section className="card-reviews">
-                  {/* <img src={star} alt="star" /><img src={star} alt="star" /><img src={star} alt="star" /><img src={star} alt="star" /><img src={star} alt="star" /> */}
-                     {/* <span className="total-reviews">4</span> */}
-                    <section className="card-price">
-                      <div className="price">
-                          <del>Rs.300</del><p>{item.price}</p>
-                      </div>
-                      <div className="bag"><img src={cart} alt="cart"/></div>
-                    </section>
-              
+                 </section>
+                
+                   ) )}
+                
               </section>
-          </div>
-          <button className="btnbuy">Buy Now</button>
-      
-         </section>
         
-           ) )}
-        
-      </section>
-
       
     </>  
     )

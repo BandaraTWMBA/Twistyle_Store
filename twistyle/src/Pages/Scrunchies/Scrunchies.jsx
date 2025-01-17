@@ -18,76 +18,73 @@ const Scrunchies = () => {
 
 
   const menueitems = [
-       {
-            name: 'Scrunchie_01',
-            image: scrunch1,
-            price: 'Rs.200'
-          },
-          {
-            name: 'Scrunchie_02',
-            image: scrunch2,
-            price: 'Rs.250'
-          },
-          {
-            name: 'Scrunchie_03',
-            image: scrunch3,
-            price: 'Rs.270'
-          },
-          {
-            name: 'Scrunchie_04',
-            image: scrunch4,
-            price: 'Rs.280'
-          },
-          {
-            name: 'Scrunchie_05',
-            image: scrunch5,
-            price: 'Rs.200'
-          },
-          {
-            name: 'Scrunchie_06',
-            image: scrunch6,
-            price: 'Rs.200'
-          },
-          {
-            name: 'Scrunchie_07',
-            image: scrunch7,
-            price: 'Rs.250'
-          },
-          {
-            name: 'Scrunchie_08',
-            image: scrunch8,
-            price: 'Rs.250'
-          },
-          {
-            name: 'Scrunchie_09',
-            image: scrunch9,
-            price: 'Rs.250'
-          },
-          {
-            name: 'Scrunchie_10',
-            image: scrunch10,
-            price: 'Rs.240'
-          },
-          {
-            name: 'Scrunchie_11',
-            image: scrunch11,
-            price: 'Rs.220'
-          },
-          {
-            name: 'Scrunchie_12',
-            image: scrunch12,
-            price: 'Rs.200'
-          }
-      
-    
+         {name: 'Scrunchie_01',
+           image: scrunch1,
+           price: 'Rs.200'
+         },
+         {
+           name: 'Scrunchie_02',
+           image: scrunch2,
+           price: 'Rs.200'
+         },
+         {
+           name: 'Scrunchie_03',
+           image: scrunch3,
+           price: 'Rs.200'
+         },
+         {
+           name: 'Scrunchie_04',
+           image: scrunch4,
+           price: 'Rs.200'
+         },
+         {
+           name: 'Scrunchie_05',
+           image: scrunch5,
+           price: 'Rs.200'
+         },
+         {
+           name: 'Scrunchie_06',
+           image: scrunch6,
+           price: 'Rs.200'
+         },
+         {
+           name: 'Scrunchie_07',
+           image: scrunch7,
+           price: 'Rs.200'
+         },
+         {
+           name: 'Scrunchie_08',
+           image: scrunch8,
+           price: 'Rs.200'
+         },
+         {
+           name: 'Scrunchie_09',
+           image: scrunch9,
+           price: 'Rs.200'
+         },
+         {
+           name: 'Scrunchie_10',
+           image: scrunch10,
+           price: 'Rs.200'
+         },
+         {
+           name: 'Scrunchie_11',
+           image: scrunch11,
+           price: 'Rs.200'
+         },
+         {
+           name: 'Scrunchie_12',
+           image: scrunch12,
+           price: 'Rs.200'
+         },
     ];
   
 
   const scrunchies=menueitems.slice(0,12);
 
-      return (<>
-        <h1 className='name'>SCRUNCHIES</h1>
-        
+      return (
+        <>
+         <h1 className='scrunchies'>SCRUNCHIES</h1>
           <section className="card-container">
             
           {scrunchies.map((item,index)=> (
@@ -115,8 +112,8 @@ const Scrunchies = () => {
            ) )}
         
       </section>
-
-     </> 
+    </>
+      
       
     )
   

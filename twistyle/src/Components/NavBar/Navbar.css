@@ -10,9 +10,10 @@ nav{
     align-items:center;
     justify-content:space-between; /*move the logo to the lefe */
     z-index:500;/*overlap all the elements in the webpage when scrolling*/
-    margin:auto;
+    /* margin:auto; */
     top: 50px;
     height:90px; /* Adjust the height as needed */
+    margin-right: 0px;
 }
 .logo{
     width:200px;
@@ -83,3 +84,15 @@ nav ul img{
     /* background-color:rgba(251, 149, 193, 1); */
 }
 
+/* Container styling to position the search bar */
+/* .search-bar-container {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+  }
+  
+  /* Styling the search bar input */
+ /* search-bar{
+    width: 250px;
+ }  */

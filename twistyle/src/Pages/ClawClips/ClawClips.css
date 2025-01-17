@@ -1,34 +1,41 @@
+
 .card-container{
     display:flex;
     flex-wrap :wrap;
     margin-left:5rem;
     margin-right:5rem;
-    margin-top:10rem;
-    margin-bottom: 30px;
+    margin-top:1rem;
     z-index:-2;
     background-color:rgba(254, 225, 237, 1);
     justify-content: center;
     gap:40px;
 }
-.name{
+
+.clawclips{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 200px;
-    margin-bottom: -100px;
+    margin-top: 175px;
+    margin-bottom: 10px;
     padding-left:10%;
     padding-right: 10%;
-    /* padding-bottom: 10px; */
+    /* padding-bottom: 20px; */
 }
-
-.card{
+.card1{
     margin:20px;
     border:2px solid white; 
     padding:20px;
     cursor:pointer;
     
-}
 
+
+}
+.card1:hover{
+    border:2px solid black;
+    
+    
+
+}
 .card-img{
     width:13rem;
     margin-bottom:1 rem;
@@ -73,17 +80,7 @@
     width: 200px;
     transition: all 0.3s ease-in-out;
 }
-.card:hover{
-    border:2px solid black;
-    
-    
-
-}
 .btnbuy:hover {
     background: linear-gradient(135deg,  rgb(240, 184, 217), rgb(244, 141, 184));
     transform: scale(1.1);
-}
-.card-img{
-    width:200px;
-    height:230px;
 }

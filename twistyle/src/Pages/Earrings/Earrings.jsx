@@ -88,7 +88,7 @@ const Earrings = () => {
   const earrings=menueitems.slice(0,12);
 
       return (<>
-        <h1 className='name'>EARRINGS</h1>
+        <h1 className='earrings'>EARRINGS</h1>
         
           <section className="card-container">
             
