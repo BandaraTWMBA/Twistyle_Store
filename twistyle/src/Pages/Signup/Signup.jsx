@@ -43,7 +43,7 @@ function Signup() {
                         <label><input type='checkbox' />Remember me</label>
                         {/* <a href='#'> Forgot Password?</a> */}
                     </div>
-                    <button type='submit'>SignUp</button>
+                    <button type='submit'><a href='http://localhost:5173/'>SignUp</a></button>
                     <div className='register-link'>
                         <p>Already have an account? <a href='/login'>Login</a></p>
                     </div>

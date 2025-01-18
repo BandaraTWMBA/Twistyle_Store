@@ -1,6 +1,6 @@
 import React from 'react'
 import './Sale.css'
-
+import cart from '../../assets/shopping-cart1.png'
 import e1 from '../../assets/e1.jpg'
 import e2 from '../../assets/e2.jpg'
 import e3 from '../../assets/e3.jpg'
@@ -62,7 +62,7 @@ const menueitems = [
    
          return (
            <>
-            <h1 className='sale'>SCRUNCHIES</h1>
+            <h1 className='sale'>SALE</h1>
              <section className="card-container">
                
              {sale.map((item,index)=> (
