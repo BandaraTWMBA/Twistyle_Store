@@ -21,12 +21,12 @@ const Shop = () => {
         </div>
         <div className='box'>
           <img src={shop2} alt="pic02"/>
-          <button className='btnshop'><a href="http://localhost:5173/earrings">EARRINGS</a></button>
+          <button className='btnshop'><a href="http://localhost:5173/Clawclips">CLAWCLIPS</a></button>
 
         </div>
         <div className='box'>
           <img src={shop3} alt="pic03"/>
-          <button className='btnshop'><a href="http://localhost:5173/Clawclips">CLAW CLIPS</a></button>
+          <button className='btnshop'><a href="http://localhost:5173/earrings">EARRINGS</a></button>
 
         </div>
       </div>

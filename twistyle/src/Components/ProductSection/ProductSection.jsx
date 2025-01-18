@@ -11,19 +11,19 @@ const ProductSection = () => {
         <div className="section">
             <img src={scrunchies} alt ="scrunchies"/>
             <div className="caption">
-            <button className='btnp '>SCRUNCHIES</button>
+            <a href='http://localhost:5173/scrunchies'><button className='btnp '>SCRUNCHIES</button></a>
             </div>
         </div>
         <div className="section">    
             <img src={earrings} alt ="earrings"/>   
             <div className="caption">
-                <button className='btnp '>EARRINGS</button>
+               <a href='http://localhost:5173/earrings'><button className='btnp '>EARRINGS</button></a> 
             </div>   
         </div>
          <div className="section">
              <img src={clawclips} alt ="clawclips"/>
              <div className="caption">
-             <button className='btnp '>CLAWCLIPS</button>
+             <a href='http://localhost:5173/ClawClips'><button className='btnp '>CLAWCLIPS</button></a>
              </div>
         </div>
     </div>
